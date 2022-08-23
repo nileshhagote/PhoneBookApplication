@@ -38,6 +38,10 @@
 			<scope>runtime</scope>
 		</dependency>
 		
+		<!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+
+		
+		
 		<!-- https://mvnrepository.com/artifact/org.apache.tomcat.embed/tomcat-embed-jasper -->
 <dependency>
     <groupId>org.apache.tomcat.embed</groupId>
@@ -49,6 +53,7 @@
     <artifactId>jstl</artifactId>
     
 </dependency>
+
 
 
 
