@@ -45,4 +45,25 @@ public class ContactServiceImpl implements ContactServiceI{
 		
 		return findById;
 	}
+
+
+	@Override
+	public boolean updateContact(Contact contact) {
+		// TODO Auto-generated method stub
+		
+		Contact save=contactRepository.save(contact);
+		if(save==null) {
+			return false;
+		}else {
+			return true;
+		}
+	}
+		
+		
+		
+		
+		
+		
+		
+	
 }
