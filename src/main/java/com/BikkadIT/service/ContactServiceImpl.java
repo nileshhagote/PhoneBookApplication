@@ -36,4 +36,13 @@ public class ContactServiceImpl implements ContactServiceI{
 		List<Contact> findAll=contactRepository.findAll();
 		return findAll;
 	}
+
+
+	@Override
+	public Contact getContactById(Integer cid) {
+		// TODO Auto-generated method stub
+		Contact findById=contactRepository.findById(cid).get();
+		
+		return findById;
+	}
 }
