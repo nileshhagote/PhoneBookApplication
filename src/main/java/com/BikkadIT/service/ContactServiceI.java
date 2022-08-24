@@ -5,7 +5,7 @@ import java.util.List;
 import com.BikkadIT.model.Contact;
 
 public interface ContactServiceI {
-	
+	//methods
 	boolean saveContact(Contact contact);
 	
 	List<Contact> getAllContact();
@@ -13,5 +13,7 @@ public interface ContactServiceI {
 	Contact getContactById(Integer cid);
 	
 	public boolean updateContact(Contact contact);
+	
+	boolean deleteById(Integer cid);
 }
 
